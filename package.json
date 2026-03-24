@@ -1,0 +1,25 @@
+{
+  "name": "portfolio_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && python -m http.server 4173"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByMisterJ/Portfolio_Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ByMisterJ/Portfolio_Web/issues"
+  },
+  "homepage": "https://github.com/ByMisterJ/Portfolio_Web#readme",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

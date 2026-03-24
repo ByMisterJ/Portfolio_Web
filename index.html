@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jose Aranda Paricio | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <main class="container">
+      <header class="hero card reveal">
+        <p class="eyebrow">👋 Hola, soy</p>
+        <h1>Jose Aranda Paricio <span>(ByMisterJ)</span></h1>
+        <p class="hero-text">
+          Desarrollador Full-Stack & Multiplataforma en formación, enfocado en crear soluciones
+          web y de automatización con una base técnica 360°.
+        </p>
+        <div class="hero-meta">
+          <span>📍 Castellón / Borriana, España</span>
+          <span>🎓 IES Álvaro Falomir</span>
+          <span>🌱 Aprendiendo: n8n y automatización</span>
+        </div>
+      </header>
+
+      <section class="grid-2">
+        <article class="card reveal">
+          <h2>Resumen GitHub</h2>
+          <ul id="github-summary" class="list"></ul>
+          <h3>Repos destacados</h3>
+          <ul id="featured-repos" class="list compact"></ul>
+          <h3>Logros</h3>
+          <div id="achievements" class="chips"></div>
+        </article>
+
+        <article class="card reveal">
+          <h2>Resumen LinkedIn</h2>
+          <ul id="linkedin-summary" class="list"></ul>
+          <h3>Experiencia</h3>
+          <ul id="experience" class="timeline"></ul>
+          <h3>Educación</h3>
+          <ul id="education" class="timeline"></ul>
+        </article>
+      </section>
+
+      <section class="card reveal">
+        <h2>Stack técnico</h2>
+        <div id="stack" class="stack-grid"></div>
+      </section>
+
+      <footer class="footer">
+        <p>Conectemos en GitHub y LinkedIn para colaborar en proyectos.</p>
+        <p>© <span id="year"></span> Jose Aranda Paricio</p>
+      </footer>
+    </main>
+
+    <script type="module" src="./dist/main.js"></script>
+  </body>
+</html>
